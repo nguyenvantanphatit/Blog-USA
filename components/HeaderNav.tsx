@@ -18,6 +18,10 @@ import { useUserStore } from "@/store/useUserStore"
 import { Button } from "./ui/button"
 const navItems = [
   {
+    label: "About Us",
+    href: "/about-us",
+  },
+  {
     label: "News",
     href: "/news",
     subItems: [
@@ -26,10 +30,6 @@ const navItems = [
       { label: "Government response", href: "/" },
       { label: "Rescue Situation", href: "/" },
     ],
-  },
-  {
-    label: "About Us",
-    href: "/about-us",
   },
   {
     label: "Relief Support",
@@ -48,6 +48,10 @@ const navItems = [
       { label: "Rebuilding Service", href: "/" },
       { label: "Preparedness Plans", href: "/" },
       { label: "Membership Plans", href: "/" },
+      { label: "Mortgage Forbearance", href: "/" },
+      { label: "Relocation Services", href: "/" },
+
+      
     ],
   },
   {
